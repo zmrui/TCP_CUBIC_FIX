@@ -1,0 +1,226 @@
+[414791.589100] ackseq:1767440467 ca->epoch_start:0 ca->cnt:0 ca->ack_cnt:0 ca->tcp_cwnd:0 tp->snd_cwnd:10
+[414821.898916] ackseq:1248640842 ca->epoch_start:0 ca->cnt:0 ca->ack_cnt:0 ca->tcp_cwnd:0 tp->snd_cwnd:10
+[414821.898967] ackseq:1248640879 ca->epoch_start:0 ca->cnt:0 ca->ack_cnt:0 ca->tcp_cwnd:0 tp->snd_cwnd:10
+[414821.944173] ackseq:1248640883 ca->epoch_start:0 ca->cnt:0 ca->ack_cnt:0 ca->tcp_cwnd:0 tp->snd_cwnd:10
+[414821.944277] ackseq:1248641019 ca->epoch_start:0 ca->cnt:0 ca->ack_cnt:0 ca->tcp_cwnd:0 tp->snd_cwnd:10
+[414821.944442] ackseq:4034982832 ca->epoch_start:0 ca->cnt:0 ca->ack_cnt:0 ca->tcp_cwnd:0 tp->snd_cwnd:10
+[414821.944490] ackseq:4034982869 ca->epoch_start:0 ca->cnt:0 ca->ack_cnt:0 ca->tcp_cwnd:0 tp->snd_cwnd:10
+[414821.988346] ackseq:4034982869 ca->epoch_start:0 ca->cnt:0 ca->ack_cnt:0 ca->tcp_cwnd:0 tp->snd_cwnd:10
+[414821.988353] ackseq:4034982869 ca->epoch_start:0 ca->cnt:0 ca->ack_cnt:0 ca->tcp_cwnd:0 tp->snd_cwnd:10
+[414821.988364] ackseq:4034982869 ca->epoch_start:0 ca->cnt:0 ca->ack_cnt:0 ca->tcp_cwnd:0 tp->snd_cwnd:7
+[414821.988470] ackseq:4034982869 ca->epoch_start:0 ca->cnt:0 ca->ack_cnt:0 ca->tcp_cwnd:0 tp->snd_cwnd:7
+[414821.989675] ackseq:4034982869 ca->epoch_start:0 ca->cnt:0 ca->ack_cnt:0 ca->tcp_cwnd:0 tp->snd_cwnd:7
+[414821.989814] ackseq:4034982869 ca->epoch_start:0 ca->cnt:0 ca->ack_cnt:0 ca->tcp_cwnd:0 tp->snd_cwnd:7
+[414821.989920] ackseq:4034982869 ca->epoch_start:0 ca->cnt:0 ca->ack_cnt:0 ca->tcp_cwnd:0 tp->snd_cwnd:7
+[414821.990060] ackseq:4034982869 ca->epoch_start:0 ca->cnt:0 ca->ack_cnt:0 ca->tcp_cwnd:0 tp->snd_cwnd:7
+[414821.990163] ackseq:4034982869 ca->epoch_start:0 ca->cnt:0 ca->ack_cnt:0 ca->tcp_cwnd:0 tp->snd_cwnd:7
+[414821.990289] epoch_start=103632274, last_max_cwnd=10, cwnd=7, bic_K=2003, bic_origin_point=10, delay_min=27, bic_target=8, delta=2, cnt=7, t=4, offs=1999
+[414821.990292] ackseq:4034997349 ca->epoch_start:103632274 ca->cnt:7 ca->ack_cnt:1 ca->tcp_cwnd:7 tp->snd_cwnd:7
+[414821.990406] ackseq:4034998797 ca->epoch_start:103632274 ca->cnt:7 ca->ack_cnt:2 ca->tcp_cwnd:7 tp->snd_cwnd:7
+[414821.991133] ackseq:4035000245 ca->epoch_start:103632274 ca->cnt:7 ca->ack_cnt:3 ca->tcp_cwnd:7 tp->snd_cwnd:7
+[414821.991254] ackseq:4035001693 ca->epoch_start:103632274 ca->cnt:7 ca->ack_cnt:4 ca->tcp_cwnd:7 tp->snd_cwnd:7
+[414821.991384] ackseq:4035003141 ca->epoch_start:103632274 ca->cnt:7 ca->ack_cnt:5 ca->tcp_cwnd:7 tp->snd_cwnd:7
+[414821.991545] ackseq:4035004589 ca->epoch_start:103632274 ca->cnt:7 ca->ack_cnt:6 ca->tcp_cwnd:7 tp->snd_cwnd:7
+[414821.992463] epoch_start=103632274, last_max_cwnd=10, cwnd=7, bic_K=2003, bic_origin_point=10, delay_min=27, bic_target=8, delta=2, cnt=7, t=8, offs=1995
+[414821.992480] ackseq:4035007485 ca->epoch_start:103632274 ca->cnt:7 ca->ack_cnt:8 ca->tcp_cwnd:7 tp->snd_cwnd:8
+[414821.992594] ackseq:4035008933 ca->epoch_start:103632274 ca->cnt:7 ca->ack_cnt:9 ca->tcp_cwnd:7 tp->snd_cwnd:8
+[414821.992707] ackseq:4035010381 ca->epoch_start:103632274 ca->cnt:7 ca->ack_cnt:10 ca->tcp_cwnd:7 tp->snd_cwnd:8
+[414821.992828] ackseq:4035011829 ca->epoch_start:103632274 ca->cnt:7 ca->ack_cnt:11 ca->tcp_cwnd:7 tp->snd_cwnd:8
+[414821.992951] ackseq:4035013277 ca->epoch_start:103632274 ca->cnt:7 ca->ack_cnt:12 ca->tcp_cwnd:7 tp->snd_cwnd:8
+[414821.993066] ackseq:4035014725 ca->epoch_start:103632274 ca->cnt:7 ca->ack_cnt:13 ca->tcp_cwnd:7 tp->snd_cwnd:8
+[414821.994048] ackseq:4035016173 ca->epoch_start:103632274 ca->cnt:7 ca->ack_cnt:14 ca->tcp_cwnd:7 tp->snd_cwnd:9
+[414821.994155] ackseq:4035017621 ca->epoch_start:103632274 ca->cnt:7 ca->ack_cnt:15 ca->tcp_cwnd:7 tp->snd_cwnd:9
+[414821.994299] ackseq:4035019069 ca->epoch_start:103632274 ca->cnt:7 ca->ack_cnt:16 ca->tcp_cwnd:7 tp->snd_cwnd:9
+[414821.994400] ackseq:4035020517 ca->epoch_start:103632274 ca->cnt:7 ca->ack_cnt:1 ca->tcp_cwnd:8 tp->snd_cwnd:9
+[414821.994519] ackseq:4035021965 ca->epoch_start:103632274 ca->cnt:7 ca->ack_cnt:2 ca->tcp_cwnd:8 tp->snd_cwnd:9
+[414821.994646] ackseq:4035023413 ca->epoch_start:103632274 ca->cnt:7 ca->ack_cnt:3 ca->tcp_cwnd:8 tp->snd_cwnd:9
+[414821.994775] ackseq:4035024861 ca->epoch_start:103632274 ca->cnt:7 ca->ack_cnt:4 ca->tcp_cwnd:8 tp->snd_cwnd:9
+[414821.994886] ackseq:4035026309 ca->epoch_start:103632274 ca->cnt:7 ca->ack_cnt:5 ca->tcp_cwnd:8 tp->snd_cwnd:10
+[414821.995976] ackseq:4035027757 ca->epoch_start:103632274 ca->cnt:7 ca->ack_cnt:6 ca->tcp_cwnd:8 tp->snd_cwnd:10
+[414821.996102] epoch_start=103632274, last_max_cwnd=10, cwnd=10, bic_K=2003, bic_origin_point=10, delay_min=27, bic_target=8, delta=2, cnt=1000, t=12, offs=1991
+[414821.996106] ackseq:4035029205 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:7 ca->tcp_cwnd:8 tp->snd_cwnd:10
+[414821.996218] ackseq:4035030653 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:8 ca->tcp_cwnd:8 tp->snd_cwnd:10
+[414821.996338] ackseq:4035032101 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:9 ca->tcp_cwnd:8 tp->snd_cwnd:10
+[414821.996459] ackseq:4035033549 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:10 ca->tcp_cwnd:8 tp->snd_cwnd:10
+[414821.996591] ackseq:4035034997 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:11 ca->tcp_cwnd:8 tp->snd_cwnd:10
+[414821.996706] ackseq:4035036445 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:12 ca->tcp_cwnd:8 tp->snd_cwnd:10
+[414821.996823] ackseq:4035037893 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:13 ca->tcp_cwnd:8 tp->snd_cwnd:10
+[414821.996943] ackseq:4035039341 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:14 ca->tcp_cwnd:8 tp->snd_cwnd:10
+[414821.997069] ackseq:4035040789 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:15 ca->tcp_cwnd:8 tp->snd_cwnd:10
+[414821.998276] ackseq:4035042237 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:16 ca->tcp_cwnd:8 tp->snd_cwnd:10
+[414821.998408] ackseq:4035043685 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:17 ca->tcp_cwnd:8 tp->snd_cwnd:10
+[414821.998538] ackseq:4035045133 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:18 ca->tcp_cwnd:8 tp->snd_cwnd:10
+[414821.998640] ackseq:4035046581 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:19 ca->tcp_cwnd:8 tp->snd_cwnd:10
+[414821.998760] ackseq:4035048029 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:20 ca->tcp_cwnd:8 tp->snd_cwnd:10
+[414821.998891] ackseq:4035049477 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:21 ca->tcp_cwnd:8 tp->snd_cwnd:10
+[414821.999014] ackseq:4035050925 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:22 ca->tcp_cwnd:8 tp->snd_cwnd:10
+[414821.999129] ackseq:4035052373 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:23 ca->tcp_cwnd:8 tp->snd_cwnd:10
+[414821.999247] ackseq:4035053821 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:24 ca->tcp_cwnd:8 tp->snd_cwnd:10
+[414822.000577] epoch_start=103632274, last_max_cwnd=10, cwnd=10, bic_K=2003, bic_origin_point=10, delay_min=27, bic_target=8, delta=2, cnt=1000, t=16, offs=1987
+[414822.000581] ackseq:4035055269 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:7 ca->tcp_cwnd:9 tp->snd_cwnd:10
+[414822.000704] ackseq:4035056717 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:8 ca->tcp_cwnd:9 tp->snd_cwnd:10
+[414822.000821] ackseq:4035058165 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:9 ca->tcp_cwnd:9 tp->snd_cwnd:10
+[414822.000941] ackseq:4035059613 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:10 ca->tcp_cwnd:9 tp->snd_cwnd:10
+[414822.001061] ackseq:4035061061 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:11 ca->tcp_cwnd:9 tp->snd_cwnd:10
+[414822.001203] ackseq:4035062509 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:12 ca->tcp_cwnd:9 tp->snd_cwnd:10
+[414822.001427] ackseq:4035065405 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:14 ca->tcp_cwnd:9 tp->snd_cwnd:10
+[414822.001667] ackseq:4035068301 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:16 ca->tcp_cwnd:9 tp->snd_cwnd:10
+[414822.002878] ackseq:4035069749 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:17 ca->tcp_cwnd:9 tp->snd_cwnd:10
+[414822.003125] ackseq:4035072645 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:19 ca->tcp_cwnd:9 tp->snd_cwnd:10
+[414822.003365] ackseq:4035075541 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:21 ca->tcp_cwnd:9 tp->snd_cwnd:10
+[414822.003610] ackseq:4035078437 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:23 ca->tcp_cwnd:9 tp->snd_cwnd:10
+[414822.003850] ackseq:4035081333 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:25 ca->tcp_cwnd:9 tp->snd_cwnd:10
+[414822.003979] ackseq:4035082781 ca->epoch_start:103632274 ca->cnt:1000 ca->ack_cnt:26 ca->tcp_cwnd:9 tp->snd_cwnd:10
+[414822.005547] epoch_start=103632274, last_max_cwnd=10, cwnd=10, bic_K=2003, bic_origin_point=10, delay_min=27, bic_target=8, delta=2, cnt=1000, t=20, offs=1983
+[414822.005551] ackseq:4035085677 ca->epoch_start:103632274 ca->cnt:10 ca->ack_cnt:10 ca->tcp_cwnd:10 tp->snd_cwnd:11
+[414822.005789] ackseq:4035088573 ca->epoch_start:103632274 ca->cnt:10 ca->ack_cnt:12 ca->tcp_cwnd:10 tp->snd_cwnd:11
+[414822.005910] ackseq:4035090021 ca->epoch_start:103632274 ca->cnt:10 ca->ack_cnt:13 ca->tcp_cwnd:10 tp->snd_cwnd:11
+[414822.006152] ackseq:4035092917 ca->epoch_start:103632274 ca->cnt:10 ca->ack_cnt:15 ca->tcp_cwnd:10 tp->snd_cwnd:11
+[414822.006393] ackseq:4035095813 ca->epoch_start:103632274 ca->cnt:10 ca->ack_cnt:17 ca->tcp_cwnd:10 tp->snd_cwnd:11
+[414822.007727] ackseq:4035098709 ca->epoch_start:103632274 ca->cnt:10 ca->ack_cnt:19 ca->tcp_cwnd:10 tp->snd_cwnd:12
+[414822.007971] ackseq:4035101605 ca->epoch_start:103632274 ca->cnt:10 ca->ack_cnt:21 ca->tcp_cwnd:10 tp->snd_cwnd:12
+[414822.008216] epoch_start=103632274, last_max_cwnd=10, cwnd=12, bic_K=2003, bic_origin_point=10, delay_min=27, bic_target=8, delta=2, cnt=1200, t=24, offs=1979
+[414822.008219] ackseq:4035104501 ca->epoch_start:103632274 ca->cnt:1200 ca->ack_cnt:1 ca->tcp_cwnd:11 tp->snd_cwnd:12
+[414822.008361] ackseq:4035105949 ca->epoch_start:103632274 ca->cnt:1200 ca->ack_cnt:2 ca->tcp_cwnd:11 tp->snd_cwnd:12
+[414822.008587] ackseq:4035108845 ca->epoch_start:103632274 ca->cnt:1200 ca->ack_cnt:4 ca->tcp_cwnd:11 tp->snd_cwnd:12
+[414822.008831] ackseq:4035111741 ca->epoch_start:103632274 ca->cnt:1200 ca->ack_cnt:6 ca->tcp_cwnd:11 tp->snd_cwnd:12
+[414822.010634] ackseq:4035114637 ca->epoch_start:103632274 ca->cnt:1200 ca->ack_cnt:8 ca->tcp_cwnd:11 tp->snd_cwnd:12
+[414822.010780] ackseq:4035116085 ca->epoch_start:103632274 ca->cnt:1200 ca->ack_cnt:9 ca->tcp_cwnd:11 tp->snd_cwnd:12
+[414822.011008] ackseq:4035118981 ca->epoch_start:103632274 ca->cnt:1200 ca->ack_cnt:11 ca->tcp_cwnd:11 tp->snd_cwnd:12
+[414822.011248] ackseq:4035121877 ca->epoch_start:103632274 ca->cnt:1200 ca->ack_cnt:13 ca->tcp_cwnd:11 tp->snd_cwnd:12
+[414822.011485] ackseq:4035124773 ca->epoch_start:103632274 ca->cnt:1200 ca->ack_cnt:15 ca->tcp_cwnd:11 tp->snd_cwnd:12
+[414822.011724] ackseq:4035127669 ca->epoch_start:103632274 ca->cnt:1200 ca->ack_cnt:17 ca->tcp_cwnd:11 tp->snd_cwnd:12
+[414822.011848] ackseq:4035129117 ca->epoch_start:103632274 ca->cnt:1200 ca->ack_cnt:18 ca->tcp_cwnd:11 tp->snd_cwnd:12
+[414822.013786] epoch_start=103632274, last_max_cwnd=10, cwnd=12, bic_K=2003, bic_origin_point=10, delay_min=27, bic_target=8, delta=2, cnt=1200, t=28, offs=1975
+[414822.013791] ackseq:4035132013 ca->epoch_start:103632274 ca->cnt:1200 ca->ack_cnt:20 ca->tcp_cwnd:11 tp->snd_cwnd:12
+[414822.014034] ackseq:4035134909 ca->epoch_start:103632274 ca->cnt:1200 ca->ack_cnt:22 ca->tcp_cwnd:11 tp->snd_cwnd:12
+[414822.014270] ackseq:4035137805 ca->epoch_start:103632274 ca->cnt:1200 ca->ack_cnt:24 ca->tcp_cwnd:11 tp->snd_cwnd:12
+[414822.014395] ackseq:4035139253 ca->epoch_start:103632274 ca->cnt:1200 ca->ack_cnt:25 ca->tcp_cwnd:11 tp->snd_cwnd:12
+[414822.014631] ackseq:4035142149 ca->epoch_start:103632274 ca->cnt:1200 ca->ack_cnt:27 ca->tcp_cwnd:11 tp->snd_cwnd:12
+[414822.014874] ackseq:4035145045 ca->epoch_start:103632274 ca->cnt:1200 ca->ack_cnt:29 ca->tcp_cwnd:11 tp->snd_cwnd:12
+[414822.016859] epoch_start=103632274, last_max_cwnd=10, cwnd=12, bic_K=2003, bic_origin_point=10, delay_min=27, bic_target=8, delta=2, cnt=1200, t=32, offs=1971
+[414822.016864] ackseq:4035147941 ca->epoch_start:103632274 ca->cnt:1200 ca->ack_cnt:9 ca->tcp_cwnd:12 tp->snd_cwnd:12
+[414822.016959] ackseq:4035149389 ca->epoch_start:103632274 ca->cnt:1200 ca->ack_cnt:10 ca->tcp_cwnd:12 tp->snd_cwnd:12
+[414822.017175] ackseq:4035152285 ca->epoch_start:103632274 ca->cnt:1200 ca->ack_cnt:12 ca->tcp_cwnd:12 tp->snd_cwnd:12
+[414822.017428] ackseq:4035155181 ca->epoch_start:103632274 ca->cnt:1200 ca->ack_cnt:14 ca->tcp_cwnd:12 tp->snd_cwnd:12
+[414822.017666] ackseq:4035158077 ca->epoch_start:103632274 ca->cnt:1200 ca->ack_cnt:16 ca->tcp_cwnd:12 tp->snd_cwnd:12
+[414822.017898] ackseq:4035160973 ca->epoch_start:103632274 ca->cnt:1200 ca->ack_cnt:18 ca->tcp_cwnd:12 tp->snd_cwnd:12
+[414822.018026] ackseq:4035162421 ca->epoch_start:103632274 ca->cnt:1200 ca->ack_cnt:19 ca->tcp_cwnd:12 tp->snd_cwnd:12
+[414822.019839] ackseq:4035165317 ca->epoch_start:103632274 ca->cnt:1200 ca->ack_cnt:21 ca->tcp_cwnd:12 tp->snd_cwnd:12
+[414822.020095] epoch_start=103632274, last_max_cwnd=10, cwnd=12, bic_K=2003, bic_origin_point=10, delay_min=27, bic_target=8, delta=2, cnt=1200, t=36, offs=1967
+[414822.020099] ackseq:4035168213 ca->epoch_start:103632274 ca->cnt:12 ca->ack_cnt:1 ca->tcp_cwnd:13 tp->snd_cwnd:13
+[414822.020335] ackseq:4035171109 ca->epoch_start:103632274 ca->cnt:12 ca->ack_cnt:3 ca->tcp_cwnd:13 tp->snd_cwnd:13
+[414822.020453] ackseq:4035172557 ca->epoch_start:103632274 ca->cnt:12 ca->ack_cnt:4 ca->tcp_cwnd:13 tp->snd_cwnd:13
+[414822.020716] ackseq:4035175453 ca->epoch_start:103632274 ca->cnt:12 ca->ack_cnt:6 ca->tcp_cwnd:13 tp->snd_cwnd:13
+[414822.020949] ackseq:4035178349 ca->epoch_start:103632274 ca->cnt:12 ca->ack_cnt:8 ca->tcp_cwnd:13 tp->snd_cwnd:13
+[414822.023259] ackseq:4035181245 ca->epoch_start:103632274 ca->cnt:12 ca->ack_cnt:10 ca->tcp_cwnd:13 tp->snd_cwnd:13
+[414822.023368] ackseq:4035182693 ca->epoch_start:103632274 ca->cnt:12 ca->ack_cnt:11 ca->tcp_cwnd:13 tp->snd_cwnd:14
+[414822.023604] ackseq:4035185589 ca->epoch_start:103632274 ca->cnt:12 ca->ack_cnt:13 ca->tcp_cwnd:13 tp->snd_cwnd:14
+[414822.023725] ackseq:4035187037 ca->epoch_start:103632274 ca->cnt:12 ca->ack_cnt:14 ca->tcp_cwnd:13 tp->snd_cwnd:14
+[414822.023956] ackseq:4035189933 ca->epoch_start:103632274 ca->cnt:12 ca->ack_cnt:16 ca->tcp_cwnd:13 tp->snd_cwnd:14
+[414822.024235] epoch_start=103632274, last_max_cwnd=10, cwnd=14, bic_K=2003, bic_origin_point=10, delay_min=27, bic_target=8, delta=2, cnt=1400, t=40, offs=1963
+[414822.024239] ackseq:4035192829 ca->epoch_start:103632274 ca->cnt:1400 ca->ack_cnt:18 ca->tcp_cwnd:13 tp->snd_cwnd:14
+[414822.024353] ackseq:4035194277 ca->epoch_start:103632274 ca->cnt:1400 ca->ack_cnt:19 ca->tcp_cwnd:13 tp->snd_cwnd:14
+[414822.026626] ackseq:4035197173 ca->epoch_start:103632274 ca->cnt:1400 ca->ack_cnt:21 ca->tcp_cwnd:13 tp->snd_cwnd:14
+[414822.026870] ackseq:4035200069 ca->epoch_start:103632274 ca->cnt:1400 ca->ack_cnt:23 ca->tcp_cwnd:13 tp->snd_cwnd:14
+[414822.027109] ackseq:4035202965 ca->epoch_start:103632274 ca->cnt:1400 ca->ack_cnt:25 ca->tcp_cwnd:13 tp->snd_cwnd:14
+[414822.027352] ackseq:4035205861 ca->epoch_start:103632274 ca->cnt:1400 ca->ack_cnt:27 ca->tcp_cwnd:13 tp->snd_cwnd:14
+[414822.027477] ackseq:4035207309 ca->epoch_start:103632274 ca->cnt:1400 ca->ack_cnt:28 ca->tcp_cwnd:13 tp->snd_cwnd:14
+[414822.027714] ackseq:4035210205 ca->epoch_start:103632274 ca->cnt:1400 ca->ack_cnt:30 ca->tcp_cwnd:13 tp->snd_cwnd:14
+[414822.027957] ackseq:4035213101 ca->epoch_start:103632274 ca->cnt:1400 ca->ack_cnt:32 ca->tcp_cwnd:13 tp->snd_cwnd:14
+[414822.028082] epoch_start=103632274, last_max_cwnd=10, cwnd=14, bic_K=2003, bic_origin_point=10, delay_min=27, bic_target=8, delta=2, cnt=1400, t=45, offs=1958
+[414822.028086] ackseq:4035214549 ca->epoch_start:103632274 ca->cnt:1400 ca->ack_cnt:7 ca->tcp_cwnd:14 tp->snd_cwnd:14
+[414822.030645] ackseq:4035217445 ca->epoch_start:103632274 ca->cnt:1400 ca->ack_cnt:9 ca->tcp_cwnd:14 tp->snd_cwnd:14
+[414822.030862] ackseq:4035220341 ca->epoch_start:103632274 ca->cnt:1400 ca->ack_cnt:11 ca->tcp_cwnd:14 tp->snd_cwnd:14
+[414822.031101] ackseq:4035223237 ca->epoch_start:103632274 ca->cnt:1400 ca->ack_cnt:13 ca->tcp_cwnd:14 tp->snd_cwnd:14
+[414822.031367] ackseq:4035226133 ca->epoch_start:103632274 ca->cnt:1400 ca->ack_cnt:15 ca->tcp_cwnd:14 tp->snd_cwnd:14
+[414822.031609] ackseq:4035229029 ca->epoch_start:103632274 ca->cnt:1400 ca->ack_cnt:17 ca->tcp_cwnd:14 tp->snd_cwnd:14
+[414822.031841] ackseq:4035231925 ca->epoch_start:103632274 ca->cnt:1400 ca->ack_cnt:19 ca->tcp_cwnd:14 tp->snd_cwnd:14
+[414822.031953] ackseq:4035233373 ca->epoch_start:103632274 ca->cnt:1400 ca->ack_cnt:20 ca->tcp_cwnd:14 tp->snd_cwnd:14
+[414822.034167] epoch_start=103632274, last_max_cwnd=10, cwnd=14, bic_K=2003, bic_origin_point=10, delay_min=27, bic_target=8, delta=2, cnt=1400, t=49, offs=1954
+[414822.034174] ackseq:4035236269 ca->epoch_start:103632274 ca->cnt:14 ca->ack_cnt:22 ca->tcp_cwnd:14 tp->snd_cwnd:15
+[414822.034263] ackseq:4035237717 ca->epoch_start:103632274 ca->cnt:14 ca->ack_cnt:23 ca->tcp_cwnd:14 tp->snd_cwnd:15
+[414822.034508] ackseq:4035240613 ca->epoch_start:103632274 ca->cnt:14 ca->ack_cnt:25 ca->tcp_cwnd:14 tp->snd_cwnd:15
+[414822.034735] ackseq:4035243509 ca->epoch_start:103632274 ca->cnt:14 ca->ack_cnt:27 ca->tcp_cwnd:14 tp->snd_cwnd:15
+[414822.034980] ackseq:4035246405 ca->epoch_start:103632274 ca->cnt:14 ca->ack_cnt:1 ca->tcp_cwnd:15 tp->snd_cwnd:15
+[414822.035235] ackseq:4035249301 ca->epoch_start:103632274 ca->cnt:14 ca->ack_cnt:3 ca->tcp_cwnd:15 tp->snd_cwnd:15
+[414822.035468] ackseq:4035252197 ca->epoch_start:103632274 ca->cnt:14 ca->ack_cnt:5 ca->tcp_cwnd:15 tp->snd_cwnd:15
+[414822.038143] epoch_start=103632274, last_max_cwnd=10, cwnd=15, bic_K=2003, bic_origin_point=10, delay_min=27, bic_target=8, delta=2, cnt=1500, t=53, offs=1950
+[414822.038147] ackseq:4035255093 ca->epoch_start:103632274 ca->cnt:1500 ca->ack_cnt:7 ca->tcp_cwnd:15 tp->snd_cwnd:15
+[414822.038372] ackseq:4035257989 ca->epoch_start:103632274 ca->cnt:1500 ca->ack_cnt:9 ca->tcp_cwnd:15 tp->snd_cwnd:15
+[414822.038626] ackseq:4035260885 ca->epoch_start:103632274 ca->cnt:1500 ca->ack_cnt:11 ca->tcp_cwnd:15 tp->snd_cwnd:15
+[414822.038874] ackseq:4035263781 ca->epoch_start:103632274 ca->cnt:1500 ca->ack_cnt:13 ca->tcp_cwnd:15 tp->snd_cwnd:15
+[414822.039117] ackseq:4035266677 ca->epoch_start:103632274 ca->cnt:1500 ca->ack_cnt:15 ca->tcp_cwnd:15 tp->snd_cwnd:15
+[414822.039231] ackseq:4035268125 ca->epoch_start:103632274 ca->cnt:1500 ca->ack_cnt:16 ca->tcp_cwnd:15 tp->snd_cwnd:15
+[414822.039470] ackseq:4035271021 ca->epoch_start:103632274 ca->cnt:1500 ca->ack_cnt:18 ca->tcp_cwnd:15 tp->snd_cwnd:15
+[414822.039704] ackseq:4035273917 ca->epoch_start:103632274 ca->cnt:1500 ca->ack_cnt:20 ca->tcp_cwnd:15 tp->snd_cwnd:15
+[414822.041898] epoch_start=103632274, last_max_cwnd=10, cwnd=15, bic_K=2003, bic_origin_point=10, delay_min=27, bic_target=8, delta=2, cnt=1500, t=57, offs=1946
+[414822.041903] ackseq:4035276813 ca->epoch_start:103632274 ca->cnt:15 ca->ack_cnt:22 ca->tcp_cwnd:15 tp->snd_cwnd:16
+[414822.042134] ackseq:4035279709 ca->epoch_start:103632274 ca->cnt:15 ca->ack_cnt:24 ca->tcp_cwnd:15 tp->snd_cwnd:16
+[414822.042367] ackseq:4035282605 ca->epoch_start:103632274 ca->cnt:15 ca->ack_cnt:26 ca->tcp_cwnd:15 tp->snd_cwnd:16
+[414822.042607] ackseq:4035285501 ca->epoch_start:103632274 ca->cnt:15 ca->ack_cnt:28 ca->tcp_cwnd:15 tp->snd_cwnd:16
+[414822.042851] ackseq:4035288397 ca->epoch_start:103632274 ca->cnt:15 ca->ack_cnt:30 ca->tcp_cwnd:15 tp->snd_cwnd:16
+[414822.043091] ackseq:4035291293 ca->epoch_start:103632274 ca->cnt:15 ca->ack_cnt:2 ca->tcp_cwnd:16 tp->snd_cwnd:16
+[414822.043214] ackseq:4035292741 ca->epoch_start:103632274 ca->cnt:15 ca->ack_cnt:3 ca->tcp_cwnd:16 tp->snd_cwnd:16
+[414822.043455] ackseq:4035295637 ca->epoch_start:103632274 ca->cnt:15 ca->ack_cnt:5 ca->tcp_cwnd:16 tp->snd_cwnd:17
+[414822.046383] epoch_start=103632274, last_max_cwnd=10, cwnd=17, bic_K=2003, bic_origin_point=10, delay_min=27, bic_target=8, delta=2, cnt=1700, t=61, offs=1942
+[414822.046391] ackseq:4035298533 ca->epoch_start:103632274 ca->cnt:1700 ca->ack_cnt:7 ca->tcp_cwnd:16 tp->snd_cwnd:17
+[414822.046755] ackseq:4035299981 ca->epoch_start:103632274 ca->cnt:1700 ca->ack_cnt:8 ca->tcp_cwnd:16 tp->snd_cwnd:17
+[414822.046791] ackseq:4035302877 ca->epoch_start:103632274 ca->cnt:1700 ca->ack_cnt:10 ca->tcp_cwnd:16 tp->snd_cwnd:17
+[414822.046987] ackseq:4035305773 ca->epoch_start:103632274 ca->cnt:1700 ca->ack_cnt:12 ca->tcp_cwnd:16 tp->snd_cwnd:17
+[414822.047224] ackseq:4035308669 ca->epoch_start:103632274 ca->cnt:1700 ca->ack_cnt:14 ca->tcp_cwnd:16 tp->snd_cwnd:17
+[414822.047652] ackseq:4035311565 ca->epoch_start:103632274 ca->cnt:1700 ca->ack_cnt:16 ca->tcp_cwnd:16 tp->snd_cwnd:17
+[414822.047697] ackseq:4035314461 ca->epoch_start:103632274 ca->cnt:1700 ca->ack_cnt:18 ca->tcp_cwnd:16 tp->snd_cwnd:17
+[414822.047937] ackseq:4035317357 ca->epoch_start:103632274 ca->cnt:1700 ca->ack_cnt:20 ca->tcp_cwnd:16 tp->snd_cwnd:17
+[414822.048194] epoch_start=103632274, last_max_cwnd=10, cwnd=17, bic_K=2003, bic_origin_point=10, delay_min=27, bic_target=8, delta=2, cnt=1700, t=65, offs=1938
+[414822.048198] ackseq:4035320253 ca->epoch_start:103632274 ca->cnt:1700 ca->ack_cnt:22 ca->tcp_cwnd:16 tp->snd_cwnd:17
+[414822.050862] ackseq:4035323149 ca->epoch_start:103632274 ca->cnt:1700 ca->ack_cnt:24 ca->tcp_cwnd:16 tp->snd_cwnd:17
+[414822.051097] ackseq:4035326045 ca->epoch_start:103632274 ca->cnt:1700 ca->ack_cnt:26 ca->tcp_cwnd:16 tp->snd_cwnd:17
+[414822.051332] ackseq:4035328941 ca->epoch_start:103632274 ca->cnt:1700 ca->ack_cnt:28 ca->tcp_cwnd:16 tp->snd_cwnd:17
+[414822.051571] ackseq:4035331837 ca->epoch_start:103632274 ca->cnt:1700 ca->ack_cnt:30 ca->tcp_cwnd:16 tp->snd_cwnd:17
+[414822.051711] ackseq:4035333285 ca->epoch_start:103632274 ca->cnt:1700 ca->ack_cnt:31 ca->tcp_cwnd:16 tp->snd_cwnd:17
+[414822.051935] ackseq:4035336181 ca->epoch_start:103632274 ca->cnt:1700 ca->ack_cnt:33 ca->tcp_cwnd:16 tp->snd_cwnd:17
+[414822.052192] epoch_start=103632274, last_max_cwnd=10, cwnd=17, bic_K=2003, bic_origin_point=10, delay_min=27, bic_target=8, delta=2, cnt=1700, t=69, offs=1934
+[414822.052196] ackseq:4035339077 ca->epoch_start:103632274 ca->cnt:1700 ca->ack_cnt:4 ca->tcp_cwnd:17 tp->snd_cwnd:17
+[414822.052431] ackseq:4035341973 ca->epoch_start:103632274 ca->cnt:1700 ca->ack_cnt:6 ca->tcp_cwnd:17 tp->snd_cwnd:17
+[414822.052674] ackseq:4035344869 ca->epoch_start:103632274 ca->cnt:1700 ca->ack_cnt:8 ca->tcp_cwnd:17 tp->snd_cwnd:17
+[414822.055814] ackseq:4035347765 ca->epoch_start:103632274 ca->cnt:1700 ca->ack_cnt:10 ca->tcp_cwnd:17 tp->snd_cwnd:17
+[414822.056064] epoch_start=103632274, last_max_cwnd=10, cwnd=17, bic_K=2003, bic_origin_point=10, delay_min=27, bic_target=8, delta=2, cnt=1700, t=73, offs=1930
+[414822.056068] ackseq:4035350661 ca->epoch_start:103632274 ca->cnt:1700 ca->ack_cnt:12 ca->tcp_cwnd:17 tp->snd_cwnd:17
+[414822.056304] ackseq:4035353557 ca->epoch_start:103632274 ca->cnt:1700 ca->ack_cnt:14 ca->tcp_cwnd:17 tp->snd_cwnd:17
+[414822.056546] ackseq:4035356453 ca->epoch_start:103632274 ca->cnt:1700 ca->ack_cnt:16 ca->tcp_cwnd:17 tp->snd_cwnd:17
+[414822.056803] ackseq:4035359349 ca->epoch_start:103632274 ca->cnt:1700 ca->ack_cnt:18 ca->tcp_cwnd:17 tp->snd_cwnd:17
+[414822.057046] ackseq:4035362245 ca->epoch_start:103632274 ca->cnt:1700 ca->ack_cnt:20 ca->tcp_cwnd:17 tp->snd_cwnd:17
+[414822.057276] ackseq:4035365141 ca->epoch_start:103632274 ca->cnt:1700 ca->ack_cnt:22 ca->tcp_cwnd:17 tp->snd_cwnd:17
+[414822.057394] ackseq:4035366589 ca->epoch_start:103632274 ca->cnt:1700 ca->ack_cnt:23 ca->tcp_cwnd:17 tp->snd_cwnd:17
+[414822.057649] ackseq:4035369485 ca->epoch_start:103632274 ca->cnt:1700 ca->ack_cnt:25 ca->tcp_cwnd:17 tp->snd_cwnd:17
+[414822.060580] epoch_start=103632274, last_max_cwnd=10, cwnd=17, bic_K=2003, bic_origin_point=10, delay_min=27, bic_target=8, delta=2, cnt=1700, t=77, offs=1926
+[414822.060598] ackseq:4035372381 ca->epoch_start:103632274 ca->cnt:17 ca->ack_cnt:27 ca->tcp_cwnd:17 tp->snd_cwnd:18
+[414822.060793] ackseq:4035375277 ca->epoch_start:103632274 ca->cnt:17 ca->ack_cnt:29 ca->tcp_cwnd:17 tp->snd_cwnd:18
+[414822.061036] ackseq:4035378173 ca->epoch_start:103632274 ca->cnt:17 ca->ack_cnt:31 ca->tcp_cwnd:17 tp->snd_cwnd:18
+[414822.061277] ackseq:4035381069 ca->epoch_start:103632274 ca->cnt:17 ca->ack_cnt:33 ca->tcp_cwnd:17 tp->snd_cwnd:18
+[414822.061520] ackseq:4035383965 ca->epoch_start:103632274 ca->cnt:17 ca->ack_cnt:2 ca->tcp_cwnd:18 tp->snd_cwnd:18
+[414822.061757] ackseq:4035386861 ca->epoch_start:103632274 ca->cnt:17 ca->ack_cnt:4 ca->tcp_cwnd:18 tp->snd_cwnd:18
+[414822.061999] ackseq:4035389757 ca->epoch_start:103632274 ca->cnt:17 ca->ack_cnt:6 ca->tcp_cwnd:18 tp->snd_cwnd:18
+[414822.062243] ackseq:4035392653 ca->epoch_start:103632274 ca->cnt:17 ca->ack_cnt:8 ca->tcp_cwnd:18 tp->snd_cwnd:18
+[414822.062361] ackseq:4035394101 ca->epoch_start:103632274 ca->cnt:17 ca->ack_cnt:9 ca->tcp_cwnd:18 tp->snd_cwnd:19
+[414822.065776] epoch_start=103632274, last_max_cwnd=10, cwnd=19, bic_K=2003, bic_origin_point=10, delay_min=27, bic_target=8, delta=2, cnt=1900, t=81, offs=1922
+[414822.065781] ackseq:4035396997 ca->epoch_start:103632274 ca->cnt:1900 ca->ack_cnt:11 ca->tcp_cwnd:18 tp->snd_cwnd:19
+[414822.065913] ackseq:4035398445 ca->epoch_start:103632274 ca->cnt:1900 ca->ack_cnt:12 ca->tcp_cwnd:18 tp->snd_cwnd:19
+[414822.066131] ackseq:4035401341 ca->epoch_start:103632274 ca->cnt:1900 ca->ack_cnt:14 ca->tcp_cwnd:18 tp->snd_cwnd:19
+[414822.066372] ackseq:4035404237 ca->epoch_start:103632274 ca->cnt:1900 ca->ack_cnt:16 ca->tcp_cwnd:18 tp->snd_cwnd:19
+[414822.066615] ackseq:4035407133 ca->epoch_start:103632274 ca->cnt:1900 ca->ack_cnt:18 ca->tcp_cwnd:18 tp->snd_cwnd:19
+[414822.066854] ackseq:4035410029 ca->epoch_start:103632274 ca->cnt:1900 ca->ack_cnt:20 ca->tcp_cwnd:18 tp->snd_cwnd:19
+[414822.067097] ackseq:4035412925 ca->epoch_start:103632274 ca->cnt:1900 ca->ack_cnt:22 ca->tcp_cwnd:18 tp->snd_cwnd:19
+[414822.067534] ackseq:4035415821 ca->epoch_start:103632274 ca->cnt:1900 ca->ack_cnt:24 ca->tcp_cwnd:18 tp->snd_cwnd:19
+[414822.067593] ackseq:4035418717 ca->epoch_start:103632274 ca->cnt:1900 ca->ack_cnt:26 ca->tcp_cwnd:18 tp->snd_cwnd:19
+[414822.067823] ackseq:4035421613 ca->epoch_start:103632274 ca->cnt:1900 ca->ack_cnt:28 ca->tcp_cwnd:18 tp->snd_cwnd:19
+[414822.068082] epoch_start=103632274, last_max_cwnd=10, cwnd=19, bic_K=2003, bic_origin_point=10, delay_min=27, bic_target=8, delta=2, cnt=1900, t=86, offs=1917
+[414822.068087] ackseq:4035424509 ca->epoch_start:103632274 ca->cnt:1900 ca->ack_cnt:30 ca->tcp_cwnd:18 tp->snd_cwnd:19
+[414822.068311] ackseq:4035427405 ca->epoch_start:103632274 ca->cnt:1900 ca->ack_cnt:32 ca->tcp_cwnd:18 tp->snd_cwnd:19
+[414822.068556] ackseq:4035430301 ca->epoch_start:103632274 ca->cnt:1900 ca->ack_cnt:34 ca->tcp_cwnd:18 tp->snd_cwnd:19
+[414822.068800] ackseq:4035433197 ca->epoch_start:103632274 ca->cnt:1900 ca->ack_cnt:36 ca->tcp_cwnd:18 tp->snd_cwnd:19
+[414822.068919] ackseq:4035434645 ca->epoch_start:103632274 ca->cnt:1900 ca->ack_cnt:37 ca->tcp_cwnd:18 tp->snd_cwnd:19
+[414822.069161] ackseq:1248641020 ca->epoch_start:0 ca->cnt:0 ca->ack_cnt:0 ca->tcp_cwnd:0 tp->snd_cwnd:10
+[414822.112129] ackseq:1248641024 ca->epoch_start:0 ca->cnt:0 ca->ack_cnt:0 ca->tcp_cwnd:0 tp->snd_cwnd:10
+[414822.112192] ackseq:1248641305 ca->epoch_start:0 ca->cnt:0 ca->ack_cnt:0 ca->tcp_cwnd:0 tp->snd_cwnd:10

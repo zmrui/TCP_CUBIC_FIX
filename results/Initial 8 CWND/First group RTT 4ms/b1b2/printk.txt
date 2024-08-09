@@ -1,0 +1,4 @@
+[  248.314179] htb: netem qdisc 10: is non-work-conserving?
+[  248.330201] htb: netem qdisc 10: is non-work-conserving?
+[  248.330375] htb: netem qdisc 10: is non-work-conserving?
+[  248.398223] htb: netem qdisc 10: is non-work-conserving?

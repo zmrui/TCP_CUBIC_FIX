@@ -1,0 +1,125 @@
+#!/usr/bin/env bpftrace
+
+/*
+This is modified based on tcpretrans.bt
+To replace discontinued tcp_probe
+
+MIT License
+
+Copyright (c) 2024 zmrui@github
+
+*/
+
+/*
+ * tcpretrans.bt Trace or count TCP retransmits
+ *               For Linux, uses bpftrace and eBPF.
+ *
+ * USAGE: tcpretrans.bt
+ *
+ * This is a bpftrace version of the bcc tool of the same name.
+ * It doesn't support tracking TLPs.
+ *
+ * This uses dynamic tracing of kernel functions, and will need to be updated
+ * to match kernel changes.
+ *
+ * Copyright (c) 2018 Dale Hamel.
+ * Licensed under the Apache License, Version 2.0 (the "License")
+ *
+ * 23-Nov-2018  Dale Hamel      created this.
+ */
+ 
+
+#ifndef BPFTRACE_HAVE_BTF
+#include <linux/socket.h>
+#include <net/sock.h>
+#include <linux/tcp.h>
+#include <linux/ip.h>
+#include <net/ip.h>
+#include <linux/skbuff.h>
+#else
+#define AF_INET   2
+#define AF_INET6 10
+#endif
+
+#ifndef IPPROTO_TCP
+#define IPPROTO_TCP 6
+#endif
+
+#include <linux/socket.h>
+#include <net/sock.h>
+#include <linux/tcp.h>
+#include <linux/ip.h>
+#include <net/ip.h>
+#include <linux/skbuff.h>
+
+BEGIN
+{
+	printf("time,source,destination,datalength,sequence,acknumber,sndcwnd,sstresh,srtt,rcvwnd,ca_state\n");
+}
+
+kprobe:__ip_local_out
+{
+	$sk = (struct sock *)arg1;
+	$skb = (struct sk_buff *)arg2;
+	$inet_family = $sk->__sk_common.skc_family;
+	
+	if ($inet_family == AF_INET || $inet_family == AF_INET6) {
+		// initialize variable type:
+		$daddr = ntop(0);
+		$saddr = ntop(0);
+		if ($inet_family == AF_INET) {
+			$daddr = ntop($sk->__sk_common.skc_daddr);
+			$saddr = ntop($sk->__sk_common.skc_rcv_saddr);
+		} else {
+			$daddr = ntop(
+			    $sk->__sk_common.skc_v6_daddr.in6_u.u6_addr8);
+			$saddr = ntop(
+			    $sk->__sk_common.skc_v6_rcv_saddr.in6_u.u6_addr8);
+		}
+		$tp = (struct tcp_sock *)$sk;
+		// expend ip_hdr() function
+		$iph = (struct iphdr *)($skb->head+$skb->network_header);
+		if ($iph->protocol == IPPROTO_TCP){
+			
+			//expend tcp_hdr() function
+			$tcph = (struct tcphdr *)($skb->head + $skb->transport_header);
+			
+			$lport = $sk->__sk_common.skc_num;
+			$dport = $sk->__sk_common.skc_dport;
+
+			// Destination port is big endian, it must be flipped
+			$dport = bswap($dport);
+
+			$state = $sk->__sk_common.skc_state;
+
+			$ca_state = ((struct inet_connection_sock *)$sk)->icsk_ca_state;
+			
+			// S-RTT
+			$srtt = $tp->srtt_us;
+			// data_len
+			$datalen = $skb->data_len;
+			//snd_cwnd
+			$sndcwnd = $tp->snd_cwnd;
+			//sstresh
+			$sndssthresh = $tp->snd_ssthresh;
+			//revcwnd
+			$rcvwnd = $tp->rcv_wnd;
+			//sequence
+			$tcpseq = bswap($tcph->seq);
+			//tcpackseq
+			$tcpackseq  = bswap($tcph->ack_seq);
+			if(($dport == 5202 || $dport == 5201)){
+				//time src dst datalength sequence acknumber sndcwnd sstresh srtt rcvwnd 
+				printf("%s,%s:%d,%s:%d,%u,%u,%u,%u,%u,%u,%u,%u\n",
+					strftime("%H:%M:%S.%f", nsecs),
+					$saddr, $lport, $daddr, $dport, 
+					$datalen, $tcpseq, $tcpackseq, $sndcwnd, $sndssthresh, $srtt, $rcvwnd, $ca_state);
+			}
+		}
+	}
+}
+
+END
+{
+	
+}
