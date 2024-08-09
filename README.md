@@ -104,9 +104,7 @@ CWND in following figures: print out snd_cwnd at every time when ip_local_out() 
 
 
  
-# More experiment results
-
-## Mininet Scripts
+## Reproduce using Mininet Scripts
 
 Link to [Github Repo](https://github.com/zmrui/tcp_cubic_fix)
 
@@ -120,135 +118,26 @@ Steps:
 https://github.com/libbpf/bpftool
 ```
 
-1. Install Mininet
+2. Install Mininet
 
 ```
 https://github.com/mininet/mininet
 ```
 
-1. Get bpftrace
+3. Get bpftrace
 ```
 wget https://github.com/bpftrace/bpftrace/releases/download/v0.21.2/bpftrace -O tcp_probe_work/bpftrace.o
-
 ```
 
-1. Configuration
+4. Configuration
 
-Config Link Delay at `mn_net_topo.py` at line 31 and line 33
+Config Link Delay at `analyze/mn_net_topo.py` at line 31 and line 33
 
-COnfig output path at `exp1.py` at line 50
+Config output path at `experiments/exp1.py` at line 50
+
+5. Start
 
 Start the script from in sudo permission(Required by Mininet) in the root folder 
 `sudo python3 start.py`
 
-
-## Initial CWND = 10
-
-
-### Initial CWND = 10, RTT ~= 4ms
-
-1. Fix bug 0, 
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%2010%20CWND/First%20group%20RTT%204ms/b0/renocubic_fixb0.jpg)
-
-1. Fix bug 1,
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%2010%20CWND/First%20group%20RTT%204ms/b1/renocubic_fixb1.jpg)
-
-1. Fix bug 2, 
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%2010%20CWND/First%20group%20RTT%204ms/b2/renocubic_fixb2.jpg)
-
-1. Fix bug 3, 
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%2010%20CWND/First%20group%20RTT%204ms/b3/renocubic_fixb3.jpg)
-
-1. Fix bug 1 and 2, 
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%2010%20CWND/First%20group%20RTT%204ms/b1b2/renocubic_fixb1b2.jpg)
-
-1. Fix bug 1 and 3, 
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%2010%20CWND/First%20group%20RTT%204ms/b1b3/renocubic_fixb1b3.jpg)
-
-1. Fix bug 2 and 3, 
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%2010%20CWND/First%20group%20RTT%204ms/b2b3/renocubic_fixb2b3.jpg)
-
-1. Fix bug 1 and 2 and 3, 
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%2010%20CWND/First%20group%20RTT%204ms/b1b2b3/renocubic_fixb1b2b3.jpg)
-
-### Initial CWND = 10, RTT ~= 0ms
-
-1. Fix bug 0, 
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%2010%20CWND/Second%20group%20RTT%200ms/b0/renocubic_fixb0.jpg)
-
-1. Fix bug 1,
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%2010%20CWND/Second%20group%20RTT%200ms/b1/renocubic_fixb1.jpg)
-
-1. Fix bug 2, 
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%2010%20CWND/Second%20group%20RTT%200ms/b2/renocubic_fixb2.jpg)
-
-1. Fix bug 3, 
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%2010%20CWND/Second%20group%20RTT%200ms/b3/renocubic_fixb3.jpg)
-
-1. Fix bug 1 and 2, 
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%2010%20CWND/Second%20group%20RTT%200ms/b1b2/renocubic_fixb1b2.jpg)
-
-1. Fix bug 1 and 3, 
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%2010%20CWND/Second%20group%20RTT%200ms/b1b3/renocubic_fixb1b3.jpg)
-
-1. Fix bug 2 and 3, 
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%2010%20CWND/Second%20group%20RTT%200ms/b2b3/start0_renocubic_fixb2b3.jpg)
-
-1. Fix bug 1 and 2 and 3, 
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%2010%20CWND/Second%20group%20RTT%200ms/b1b2b3/start0_renocubic_fixb1b2b3.jpg)
-
-## Initial CWND = 8
-
-Change TCP_INIT_CWND to 8 and recompile the kernel
-
-### Initial CWND = 8, RTT ~= 4ms
-
-1. Fix bug 0, 
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%208%20CWND/First%20group%20RTT%204ms/b0/renocubic_fixb0.jpg)
-
-1. Fix bug 1,
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%208%20CWND/First%20group%20RTT%204ms/b1/renocubic_fixb1.jpg)
-
-1. Fix bug 2, 
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%208%20CWND/First%20group%20RTT%204ms/b2/renocubic_fixb2.jpg)
-
-1. Fix bug 3, 
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%208%20CWND/First%20group%20RTT%204ms/b3/renocubic_fixb3.jpg)
-
-1. Fix bug 1 and 2, 
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%208%20CWND/First%20group%20RTT%204ms/b1b2/renocubic_fixb1b2.jpg)
-
-1. Fix bug 1 and 3, 
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%208%20CWND/First%20group%20RTT%204ms/b1b3/renocubic_fixb1b3.jpg)
-
-1. Fix bug 2 and 3, 
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%208%20CWND/First%20group%20RTT%204ms/b2b3/renocubic_fixb2b3.jpg)
-
-1. Fix bug 1 and 2 and 3, 
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%208%20CWND/First%20group%20RTT%204ms/b1b2b3/renocubic_fixb1b2b3.jpg)
-
-### Initial CWND = 8, RTT ~= 0ms
-
-1. Fix bug 0, 
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%208%20CWND/Second%20group%20RTT%200ms/b0/renocubic_fixb0.jpg)
-
-1. Fix bug 1,
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%208%20CWND/Second%20group%20RTT%200ms/b1/renocubic_fixb1.jpg)
-
-1. Fix bug 2, 
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%208%20CWND/Second%20group%20RTT%200ms/b2/renocubic_fixb2.jpg)
-
-1. Fix bug 3, 
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%208%20CWND/Second%20group%20RTT%200ms/b3/renocubic_fixb3.jpg)
-
-1. Fix bug 1 and 2, 
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%208%20CWND/Second%20group%20RTT%200ms/b1b2/renocubic_fixb1b2.jpg)
-
-1. Fix bug 1 and 3, 
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%208%20CWND/Second%20group%20RTT%200ms/b1b3/renocubic_fixb1b3.jpg)
-
-1. Fix bug 2 and 3, 
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%208%20CWND/Second%20group%20RTT%200ms/b2b3/renocubic_fixb2b3.jpg)
-
-1. Fix bug 1 and 2 and 3, 
-![](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/results/Initial%208%20CWND/Second%20group%20RTT%200ms/b1b2b3/renocubic_fixb1b2b3.jpg)
+# [More experiment results](more_results.md)
