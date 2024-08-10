@@ -2,6 +2,16 @@
 
 Below are Mininet experiments to demonstrate the performance difference between the original CUBIC and patched CUBIC.
 
+## Topology and setup
+
+- Topology
+![Topology](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/isoflow-export-2024-08-10T15_55_23.611Z.png)
+
+- Disable TSO on all nodes
+- Drop the first data packet of each flow using the iptables rule
+- Packet drop rule execute on the middle router
+- Reno and CUBIC traffic: IPerf3
+
 ## 1. Network: link capacity = 100Mbps, RTT = 4ms, Initial cwnd = 10 packets
 
 TCP flows: one RENO and one CUBIC. The first data packet of each flow is lost
