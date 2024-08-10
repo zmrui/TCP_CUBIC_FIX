@@ -12,6 +12,7 @@ Below are Mininet experiments to demonstrate the performance difference between 
 - Packet drop rule execute on the middle router
 - Reno and CUBIC traffic: IPerf3
 - CWND information captured the kprobe:__ip_local_out function on the sender node using [bpftrace](https://github.com/bpftrace/bpftrace)
+- Initial CWND change method: change `#define TCP_INIT_CWND	10` to `#define TCP_INIT_CWND	8` in `include/net/tcp.h`, then recompile and install the kernel
 
 ## 1. Network: link capacity = 100Mbps, RTT = 4ms, Initial cwnd = 10 packets
 
@@ -55,6 +56,8 @@ TCP flows: one RENO and one CUBIC. The first data packet of each flow is lost
 
 ## 3 Network: link capacity = 100Mbps, RTT = 4ms, Initial cwnd = 8 packets
 
+- Initial CWND change method: change `#define TCP_INIT_CWND	10` to `#define TCP_INIT_CWND	8` in `include/net/tcp.h`, then recompile and install the kernel
+  
 ### Combinations of bug fixes 1, 2, and 3
 
 [Fix bug 0](https://github.com/zmrui/tcp_cubic_fix/tree/main/results/Initial%208%20CWND/First%20group%20RTT%204ms/b0/renocubic_fixb0.jpg), 
@@ -69,6 +72,8 @@ TCP flows: one RENO and one CUBIC. The first data packet of each flow is lost
 
 ## 4 Network: link capacity = 100Mbps, RTT = 0ms, Initial cwnd = 8 packets
 
+- Initial CWND change method: change `#define TCP_INIT_CWND	10` to `#define TCP_INIT_CWND	8` in `include/net/tcp.h`, then recompile and install the kernel
+  
 ### Combinations of bug fixes 1, 2, and 3
 
 [Fix bug 0](https://github.com/zmrui/tcp_cubic_fix/tree/main/results/Initial%208%20CWND/Second%20group%20RTT%200ms/b0/renocubic_fixb0.jpg), 
