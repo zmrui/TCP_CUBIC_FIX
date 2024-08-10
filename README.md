@@ -44,7 +44,7 @@ TCP flows: one RENO and one CUBIC. The first data packet of each flow is lost
 
 ## 2 Network: link capacity = 100Mbps, RTT = 4ms, Initial cwnd = 8 packets
 
-- Initial CWND change method: change `#define TCP_INIT_CWND	10` to `#define TCP_INIT_CWND	8` in `include/net/tcp.h`, then recompile and install the kernel
+- Initial CWND change method: change `#define TCP_INIT_CWND 10` to `#define TCP_INIT_CWND 8` in `include/net/tcp.h`, then recompile and install the kernel
   
 ### Combinations of bug fixes 1, 2, and 3
 
