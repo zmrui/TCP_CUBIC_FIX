@@ -42,22 +42,7 @@ TCP flows: one RENO and one CUBIC. The first data packet of each flow is lost
 
 [Fix bug 1 and 2 and 3](https://github.com/zmrui/tcp_cubic_fix/blob/main/results/Initial%2010%20CWND/First%20group%20RTT%204ms/b1b2b3/renocubic_fixb1b2b3.jpg)
 
-## 2. Network: link capacity = 100Mbps, RTT = 0ms, Initial cwnd = 10 packets
-
-### Combinations of bug fixes 1, 2, and 3
-
-[Fix bug 0](https://github.com/zmrui/tcp_cubic_fix/tree/main/results/Initial%2010%20CWND/Second%20group%20RTT%200ms/b0/renocubic_fixb0.jpg), 
-[Fix bug 1](https://github.com/zmrui/tcp_cubic_fix/tree/main/results/Initial%2010%20CWND/Second%20group%20RTT%200ms/b1/renocubic_fixb1.jpg), 
-[Fix bug 2](https://github.com/zmrui/tcp_cubic_fix/tree/main/results/Initial%2010%20CWND/Second%20group%20RTT%200ms/b2/renocubic_fixb2.jpg), 
-[Fix bug 3](https://github.com/zmrui/tcp_cubic_fix/tree/main/results/Initial%2010%20CWND/Second%20group%20RTT%200ms/b3/renocubic_fixb3.jpg)
-
-[Fix bug 1 and 2](https://github.com/zmrui/tcp_cubic_fix/tree/main/results/Initial%2010%20CWND/Second%20group%20RTT%200ms/b1b2/renocubic_fixb1b2.jpg), 
-[Fix bug 1 and 3](https://github.com/zmrui/tcp_cubic_fix/tree/main/results/Initial%2010%20CWND/Second%20group%20RTT%200ms/b1b3/renocubic_fixb1b3.jpg), 
-[Fix bug 2 and 3](https://github.com/zmrui/tcp_cubic_fix/tree/main/results/Initial%2010%20CWND/Second%20group%20RTT%200ms/b2b3/renocubic_fixb2b3.jpg)
-
-[Fix bug 1 and 2 and 3](https://github.com/zmrui/tcp_cubic_fix/tree/main/results/Initial%2010%20CWND/Second%20group%20RTT%200ms/b1b2b3/renocubic_fixb1b2b3.jpg)
-
-## 3 Network: link capacity = 100Mbps, RTT = 4ms, Initial cwnd = 8 packets
+## 2 Network: link capacity = 100Mbps, RTT = 4ms, Initial cwnd = 8 packets
 
 - Initial CWND change method: change `#define TCP_INIT_CWND	10` to `#define TCP_INIT_CWND	8` in `include/net/tcp.h`, then recompile and install the kernel
   
@@ -73,20 +58,3 @@ TCP flows: one RENO and one CUBIC. The first data packet of each flow is lost
 [Fix bug 2 and 3](https://github.com/zmrui/tcp_cubic_fix/tree/main/results/Initial%208%20CWND/First%20group%20RTT%204ms/b2b3/renocubic_fixb2b3.jpg)
 
 [Fix bug 1 and 2 and 3](https://github.com/zmrui/tcp_cubic_fix/tree/main/results/Initial%208%20CWND/First%20group%20RTT%204ms/b1b2b3/renocubic_fixb1b2b3.jpg)
-
-## 4 Network: link capacity = 100Mbps, RTT = 0ms, Initial cwnd = 8 packets
-
-- Initial CWND change method: change `#define TCP_INIT_CWND	10` to `#define TCP_INIT_CWND	8` in `include/net/tcp.h`, then recompile and install the kernel
-  
-### Combinations of bug fixes 1, 2, and 3
-
-[Fix bug 0](https://github.com/zmrui/tcp_cubic_fix/tree/main/results/Initial%208%20CWND/Second%20group%20RTT%200ms/b0/renocubic_fixb0.jpg), 
-[Fix bug 1](https://github.com/zmrui/tcp_cubic_fix/tree/main/results/Initial%208%20CWND/Second%20group%20RTT%200ms/b1/renocubic_fixb1.jpg), 
-[Fix bug 2](https://github.com/zmrui/tcp_cubic_fix/tree/main/results/Initial%208%20CWND/Second%20group%20RTT%200ms/b2/renocubic_fixb2.jpg), 
-[Fix bug 3](https://github.com/zmrui/tcp_cubic_fix/tree/main/results/Initial%208%20CWND/Second%20group%20RTT%200ms/b3/renocubic_fixb3.jpg)
-
-[Fix bug 1 and 2](https://github.com/zmrui/tcp_cubic_fix/tree/main/results/Initial%208%20CWND/Second%20group%20RTT%200ms/b1b2/renocubic_fixb1b2.jpg), 
-[Fix bug 1 and 3](https://github.com/zmrui/tcp_cubic_fix/tree/main/results/Initial%208%20CWND/Second%20group%20RTT%200ms/b1b3/renocubic_fixb1b3.jpg), 
-[Fix bug 2 and 3](https://github.com/zmrui/tcp_cubic_fix/tree/main/results/Initial%208%20CWND/Second%20group%20RTT%200ms/b2b3/renocubic_fixb2b3.jpg)
-
-[Fix bug 1 and 2 and 3](https://github.com/zmrui/tcp_cubic_fix/tree/main/results/Initial%208%20CWND/Second%20group%20RTT%200ms/b1b2b3/renocubic_fixb1b2b3.jpg)
