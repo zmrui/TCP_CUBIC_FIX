@@ -11,6 +11,7 @@ Below are Mininet experiments to demonstrate the performance difference between 
 - Drop the first data packet of each flow using the iptables rule
 - Packet drop rule execute on the middle router
 - Reno and CUBIC traffic: IPerf3
+- CWND information captured the kprobe:__ip_local_out function on the sender node using [bpftrace](https://github.com/bpftrace/bpftrace)
 
 ## 1. Network: link capacity = 100Mbps, RTT = 4ms, Initial cwnd = 10 packets
 
