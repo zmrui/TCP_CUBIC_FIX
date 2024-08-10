@@ -10,8 +10,12 @@ It consists of three bug fixes, all changing function bictcp_update() of tcp_cub
 
 
 ```patch
+---
+ net/ipv4/tcp_cubic.c | 14 +++++++++-----
+ 1 file changed, 9 insertions(+), 5 deletions(-)
+
 diff --git a/net/ipv4/tcp_cubic.c b/net/ipv4/tcp_cubic.c
-index 5dbed91c6178..6bfca2b51b39 100644
+index 5dbed91c6178..6789ebdaa615 100644
 --- a/net/ipv4/tcp_cubic.c
 +++ b/net/ipv4/tcp_cubic.c
 @@ -219,7 +219,7 @@ static inline void bictcp_update(struct bictcp *ca, u32 cwnd, u32 acked)
