@@ -7,12 +7,13 @@ Below are Mininet experiments to demonstrate the performance difference between 
 - Topology
 ![Topology](https://raw.githubusercontent.com/zmrui/tcp_cubic_fix/main/isoflow-export-2024-08-10T15_55_23.611Z.png)
 
+- The Reno and Cubic flow share the same bottle neck link
 - Disable TSO on all nodes
 - Drop the first data packet of each flow using the iptables rule
 - Packet drop rule execute on the middle router
 - Reno and CUBIC traffic: IPerf3
 - CWND information captured the kprobe:__ip_local_out function on the sender node using [bpftrace](https://github.com/bpftrace/bpftrace)
-- Initial CWND change method: change `#define TCP_INIT_CWND	10` to `#define TCP_INIT_CWND	8` in `include/net/tcp.h`, then recompile and install the kernel
+- Initial CWND change method: change TCP_INIT_CWND from `#define TCP_INIT_CWND	10` to `#define TCP_INIT_CWND	8` in `include/net/tcp.h`, then recompile and install the kernel
 
 ## 1. Network: link capacity = 100Mbps, RTT = 4ms, Initial cwnd = 10 packets
 
