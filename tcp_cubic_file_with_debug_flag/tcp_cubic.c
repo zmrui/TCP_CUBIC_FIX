@@ -225,7 +225,7 @@ if (bugfix&1){
 	//printk("BUGFIX 1\n");
     //Lisong: should update cwnd at least once per RTT. update cwnd even if RTT < HZ/32 = 32ms
     if (ca->last_cwnd == cwnd &&
-    (s32)(tcp_jiffies32 - ca->last_time) < min(HZ / 32, usecs_to_jiffies (ca->delay_min)))
+    (s32)(tcp_jiffies32 - ca->last_time) <= min(HZ / 32, usecs_to_jiffies (ca->delay_min)))
         return;
 }
 else{
