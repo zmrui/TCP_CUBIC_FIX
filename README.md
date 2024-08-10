@@ -31,7 +31,7 @@ TCP flows: one RENO and one CUBIC. The first data packet of each flow is lost
  
 - More combinations of bug fixes 1, 2, and 3
 
-[Fix bug 0](https://github.com/zmrui/tcp_cubic_fix/blob/main/results/Initial%2010%20CWND/First%20group%20RTT%204ms/b0/renocubic_fixb0.jpg),
+[Original CUBIC](https://github.com/zmrui/tcp_cubic_fix/blob/main/results/Initial%2010%20CWND/First%20group%20RTT%204ms/b0/renocubic_fixb0.jpg),
 [Fix bug 1](https://github.com/zmrui/tcp_cubic_fix/blob/main/results/Initial%2010%20CWND/First%20group%20RTT%204ms/b1/renocubic_fixb1.jpg),
 [Fix bug 2](https://github.com/zmrui/tcp_cubic_fix/blob/main/results/Initial%2010%20CWND/First%20group%20RTT%204ms/b2/renocubic_fixb2.jpg),
 [Fix bug 3](https://github.com/zmrui/tcp_cubic_fix/blob/main/results/Initial%2010%20CWND/First%20group%20RTT%204ms/b3/renocubic_fixb3.jpg)
@@ -48,7 +48,7 @@ TCP flows: one RENO and one CUBIC. The first data packet of each flow is lost
   
 ### Combinations of bug fixes 1, 2, and 3
 
-[Fix bug 0](https://github.com/zmrui/tcp_cubic_fix/tree/main/results/Initial%208%20CWND/First%20group%20RTT%204ms/b0/renocubic_fixb0.jpg), 
+[Original CUBIC](https://github.com/zmrui/tcp_cubic_fix/tree/main/results/Initial%208%20CWND/First%20group%20RTT%204ms/b0/renocubic_fixb0.jpg), 
 [Fix bug 1](https://github.com/zmrui/tcp_cubic_fix/tree/main/results/Initial%208%20CWND/First%20group%20RTT%204ms/b1/renocubic_fixb1.jpg), 
 [Fix bug 2](https://github.com/zmrui/tcp_cubic_fix/tree/main/results/Initial%208%20CWND/First%20group%20RTT%204ms/b2/renocubic_fixb2.jpg), 
 [Fix bug 3](https://github.com/zmrui/tcp_cubic_fix/tree/main/results/Initial%208%20CWND/First%20group%20RTT%204ms/b3/renocubic_fixb3.jpg)
